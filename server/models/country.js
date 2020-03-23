@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
   );
   Country.associate = function(models) {
     // associations can be defined here
-    Country.hasMany(models.Report);
+    User.hasMany(models.Country, {foreignKey: 'CountryId'})
   };
   return Country;
 };
