@@ -12,3 +12,5 @@ function authenticateUser(req,res,next){
         next(err)
     }
 }
+
+module.exports = authenticateUser

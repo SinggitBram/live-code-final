@@ -15,6 +15,9 @@ class CountryController {
             })
         })
      } 
+     static deleteReport (req,res,next) {
+         
+     }
 }
 
 module.exports = CountryController
